@@ -1,9 +1,21 @@
-header {
-    background: #72d0eb;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 600;
-    letter-spacing: 10px 10px 10px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
+body {
+    background: rgb(189, 204, 219);
+}
 
-  }
+header {
+    background: pink;
+    color: red;
+}
+
+.link {
+
+}
+
+#portafolio {
+
+}
+
+#eventos{
+
+}
+
