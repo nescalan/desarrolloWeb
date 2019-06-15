@@ -33,7 +33,7 @@
       <h1>
         Hola! Soy <strong>Leonidas Esteban</strong> <br> Desarrollador <strong>Javascript</strong> con <br> Pasion por la <strong>enseñanza</strong>
       </h1>
-      <img src="images/hero.jpg" alt="Imágen del hero" width="500"> imagen de portada
+      <!-- <img src="images/hero.jpg" alt="Imágen del hero" width="500"> imagen de portada -->
     </section>
     <!-- ETIQUEDA FIN DE LA SECCION "HEADER" -->
 
@@ -41,19 +41,23 @@
     <!-- ETIQUEDA INICIO DE LA SECCION "PROYECTOS" -->
     <section id="portafolio">
       <h2>Portafolio (Proyectos Destacados)</h2>
-      <article>
-        <h3>Platzi Video</h3>
-        <h6>React native / React</h6>
-        <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-        <p><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-        <p>
-            Platzi Vídeo fue el resultado de 3 meses de Trabajemos
-            para crear la mejor app para enseñar el funcionamiento
-            de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados
-            de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones
-            multiplatafomra.
-        </p>
-        <img src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native" width="500px">
+      <article class="project">
+        <div class="project-details">
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
+            <p class="project-description">
+                Platzi Vídeo fue el resultado de 3 meses de Trabajemos
+                para crear la mejor app para enseñar el funcionamiento
+                de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados
+                de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones
+                multiplatafomra.
+            </p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native" width="500px">
+        </figure>
       </article>
     </section>
     <!-- ETIQUEDA FINAL DE LA SECCION "PROYECTOS" -->
