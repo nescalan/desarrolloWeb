@@ -1,3 +1,4 @@
+/* ESITLOS PRINCIPALES */
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -9,4 +10,12 @@ h4,
 h5,
 h6 {
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
 }
