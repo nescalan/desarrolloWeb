@@ -20,8 +20,18 @@ h1 {
     text-transform: uppercase;
 }
 
+h1 strong {
+    color: #026fff
+}
+
 .hero {
     height: 300px;
+    background-color: #1b2127;
+    background-image: url(../images/hero.jpg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    color: white;
 }
 
 .project-details {
@@ -30,4 +40,14 @@ h1 {
 
 .project-imageContainer {
     width: 500px;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
