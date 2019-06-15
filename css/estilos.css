@@ -1,21 +1,12 @@
 body {
-    background: rgb(189, 204, 219);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-header {
-    background: pink;
-    color: red;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
 }
-
-.link {
-
-}
-
-#portafolio {
-
-}
-
-#eventos{
-
-}
-
