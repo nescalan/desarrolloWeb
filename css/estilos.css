@@ -14,14 +14,17 @@ h6 {
 }
 
 h1 {
+    color: white;
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -0.2px;
+    margin: 100px 150px 70px 30px;
     text-transform: uppercase;
+
 }
 
 h1 strong {
-    color: #026fff
+    color: #026fff;
 }
 
 .header {
@@ -47,6 +50,7 @@ h1 strong {
 .project {
     border: 1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .project-details {
