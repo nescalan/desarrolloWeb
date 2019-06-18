@@ -28,15 +28,45 @@ h1 strong {
     color: #026fff;
 }
 
+
+/* ESTILOS DE LA SECCION ---HEADER---  */
 .header {
     background-color: #1b2127;
     color: white;
+    display: flex;
+    height: 90px;
+    justify-content: space-between
 }
 
-.header a {
-    color: white;
-    text-decoration: none;
+.header ol li {
+    height: inherit;
 }
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+
+figure {
+    margin: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 
 .hero {
     height: 300px;
@@ -46,6 +76,10 @@ h1 strong {
     background-repeat: no-repeat;
     background-size: 500px 300px;
     color: white;
+}
+
+.menu {
+    height: inherit;
 }
 
 .portfolio {
@@ -67,4 +101,15 @@ h1 strong {
 
 .project-imageContainer {
     width: 500px;
+}
+
+.flexbox {
+    display: flex;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
 }
