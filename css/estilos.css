@@ -19,9 +19,7 @@ h1 {
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -0.2px;
-    margin: 100px 150px 70px 30px;
-    text-transform: uppercase;
-
+    margin: 0;
 }
 
 h1 strong {
@@ -34,8 +32,9 @@ h1 strong {
     background-color: #1b2127;
     color: white;
     display: flex;
-    height: 90px;
-    justify-content: space-between
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header ol li {
@@ -76,6 +75,8 @@ ul {
     background-repeat: no-repeat;
     background-size: 500px 300px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .menu {
@@ -112,4 +113,20 @@ ul {
     width: 200px;
     height: 200px;
     border: 1px solid red;
+}
+
+.footer {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
 }
